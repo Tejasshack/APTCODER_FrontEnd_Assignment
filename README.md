@@ -1,5 +1,6 @@
 **TodoList App Description**
-**Below are Screenshots of the app**
+
+****Below are Screenshots of the app****
 
 Hey there!
 This application is created as a part of assignment for FrontEnd task
