@@ -2,6 +2,10 @@
 
 ****Below are Screenshots of the app****
 
+**Interface Of APP**
+![image](https://github.com/Tejasshack/APTCODER_FrontEnd_Assignment/assets/114883554/b3f97477-db12-4929-9b66-5a86ea09604d)
+
+
 Hey there!
 This application is created as a part of assignment for FrontEnd task
 
@@ -51,7 +55,4 @@ I dont know Anything about Vue js but tried my best to showcase my skills in ter
 - The app shows all tasks with their details and a checkbox for marking them done. You can also edit or delete each task.
 
 That's about it! I know it's not super fancy, but it's a good start. I'm still learning, so any feedback is welcome!
-
-**Interface Of APP**
-![image](https://github.com/Tejasshack/APTCODER_FrontEnd_Assignment/assets/114883554/b3f97477-db12-4929-9b66-5a86ea09604d)
 
