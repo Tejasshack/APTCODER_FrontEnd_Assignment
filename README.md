@@ -9,7 +9,7 @@
 Hey there!
 This application is created as a part of assignment for FrontEnd task
 
-I dont know Anything about Vue js but tried my best to showcase my skills in terms of developing and styling the application in Reactjs
+I tried my best to showcase my skills in terms of developing and styling the application in Reactjs
 
 **Features:**
 
