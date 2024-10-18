@@ -1,58 +1,77 @@
-**TodoList App Description**
+# TodoList App
 
-****Below are Screenshots of the app****
+![Interface of the App](https://github.com/Tejasshack/APTCODER_FrontEnd_Assignment/assets/114883554/b3f97477-db12-4929-9b66-5a86ea09604d)
 
-**Interface Of APP**
-![image](https://github.com/Tejasshack/APTCODER_FrontEnd_Assignment/assets/114883554/b3f97477-db12-4929-9b66-5a86ea09604d)
+## Description
+
+This TodoList application is developed as part of an assignment for a frontend task. It showcases skills in building and styling applications using React.js.
+
+## Features
+
+- **Task Management**: Add, edit, and delete tasks effortlessly.
+- **Task Details**: Each task includes a title, description, creation date, and status (indicating whether it's done or not).
+
+## Tech Stack
+
+- **React**: Utilizing hooks such as `useState` and `useEffect` for effective state management and side effects.
+- **Axios**: Used for making API calls to the backend server.
+
+## How It Works
+
+1. **State Management**:
+   - The application employs React hooks to manage tasks, including the new task being added and the current editing state.
+
+2. **Fetching Tasks**:
+   - On app initialization, it communicates with the server using `useEffect` to retrieve the initial list of tasks.
+
+3. **Adding Tasks**:
+   - A dedicated function, `handleAddTask`, is implemented to add new tasks. It validates input, creates a task object, updates the list, and sends a POST request to the server.
+
+4. **Toggling Task Status**:
+   - The `handleToggleDone` function allows users to toggle the completion status of tasks. This updates both the local list and the server via a PUT request.
+
+5. **Deleting Tasks**:
+   - Want to remove a task? The `handleDeleteTask` function takes care of that by removing the task locally and notifying the server with a DELETE request.
+
+6. **Editing Tasks**:
+   - The application supports editing through the `handleEditTask` function, which sets the task for editing, preparing it for the next steps.
+
+7. **Saving Edits**:
+   - Once edits are complete, the `handleSaveEdit` function saves the changes. It updates the task list and informs the server of the modifications through another PUT request.
+
+## User Interface
+
+- The app displays all tasks with their details and includes a checkbox for marking them as done. Users can easily edit or delete each task as needed.
+
+## Getting Started
+
+1. Clone the repository:
+   ```
+   git clone https://github.com/Tejasshack/APTCODER_FrontEnd_Assignment.git
+   cd APTCODER_FrontEnd_Assignment
+Install dependencies:
 
 
-Hey there!
-This application is created as a part of assignment for FrontEnd task
+Copy code
+npm install
+Start the application:
 
-I tried my best to showcase my skills in terms of developing and styling the application in Reactjs
 
-**Features:**
+Copy code
+npm start
+Feedback
+I know it's not overly complex, but it represents a solid start. I'm still on my learning journey, so any feedback is greatly appreciated!
 
-- Add, edit, and delete tasks.
-- Each task has a title, description, creation date, and a status (you know, whether it's done or not).
+License
+This project is open-source and available under the MIT License.
 
-**Tech Stack:**
+markdown
+Copy code
 
-- React hooks like useState and useEffect for managing state and side effects.
-- Axios for talking to the backend server.
+### Instructions for Use
 
-**How It Works:**
+1. **Copy and Paste**: Simply copy the above Markdown content into a file named `README.md` in the root directory of your TodoList project.
+2. **Adjust Links**: If necessary, adjust any URLs or links based on your project's actual repository structure or license information.
+3. **Commit Changes**: Add, commit, and push your `README.md` to your GitHub repository.
 
-1. **State Management:**
-
-   - I'm using React hooks to keep track of tasks, the new task I'm adding, the one I'm editing, and the text I'm editing.
-
-2. **Fetching Tasks:**
-
-   - When the app starts, it talks to the server using useEffect to get the initial list of tasks.
-
-3. **Adding Tasks:**
-
-   - I created a function (`handleAddTask`) to add new tasks. It checks if the task isn't empty, creates a new task object, adds it to the list, and sends a POST request to the server.
-
-4. **Toggling Task Status:**
-
-   - There's this cool function (`handleToggleDone`) that toggles if a task is done or not. It updates the list and lets the server know with a PUT request.
-
-5. **Deleting Tasks:**
-
-   - Wanna get rid of a task? No problem! There's a function (`handleDeleteTask`) for that. It deletes the task locally and tells the server to forget about it with a DELETE request.
-
-6. **Editing Tasks:**
-
-   - Editing is covered too! Use the `handleEditTask` function to set a task for editing. It's like a warm-up before the main event!
-
-7. **Saving Edits:**
-   - After editing, just hit `handleSaveEdit` to save those changes. It updates the list and gives the server a heads up with another PUT request.
-
-**UI Magic:**
-
-- The app shows all tasks with their details and a checkbox for marking them done. You can also edit or delete each task.
-
-That's about it! I know it's not super fancy, but it's a good start. I'm still learning, so any feedback is welcome!
-
+Feel free to customize any part of the README as per your preference! If you need further assistance
